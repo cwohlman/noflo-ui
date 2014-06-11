@@ -1,1 +1,35 @@
 /* Noflo themed css */
+
+.light /deep/ .bg-theme {
+	background-color: white;
+	color: black;
+}
+
+.dark /deep/ .bg-theme {
+	background-color: background-color: hsla(0, 0%, 0%, 0.99);
+	color: white;
+}
+
+.light /deep/ .route {
+	font-weight: bold;
+	color: black;
+}
+
+.light /deep/ .route input {
+	color: black;
+}
+
+.light /deep/ .bg-theme /deep/ h1 {
+	text-shadow: none;
+}
+.dark /deep/ .bg-theme /deep/ h1 {
+	text-shadow: hsl(0, 0%, 0%) 0px 1px;
+}
+
+.light /deep/ .bg-theme /deep/ h2 {
+	color: hsl(185, 98%, 46%);
+	font-weight: bold;
+}
+.dark /deep/ .bg-theme /deep/ h2 {
+	color: hsla(190, 100%, 80%, 0.8);
+}

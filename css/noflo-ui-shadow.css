@@ -125,7 +125,7 @@ html /deep/ the-card .the-card-content {
           box-sizing: border-box;
   border-bottom: 1px hsla(190, 100%, 30%, 0.1) solid;
   border-right: 1px hsla(190, 100%, 30%, 0.1) solid;
-  background-color: hsla(0, 0%, 0%, 0.99) !important;
+  /*background-color: hsla(0, 0%, 0%, 0.99) !important;*/
   width: calc(72px * 4);
   overflow-x: hidden;
   overflow-y: auto;
@@ -174,7 +174,7 @@ html /deep/ the-card ::shadow button {
   font-size: 10px;
   background-color: transparent;
   border: none;
-  color: white;
+  /*color: white;*/
   text-align: center;
 }
 
@@ -183,7 +183,7 @@ html /deep/ the-card ::shadow h1 {
   line-height: 36px;
   margin: 0px;
   margin-bottom: 0px;
-  text-shadow: 0 1px hsl(0, 0%, 0%);  
+  /*text-shadow: 0 1px hsl(0, 0%, 0%);  */
   text-align: left;
 }
 
@@ -214,7 +214,7 @@ html /deep/ the-card ::shadow header h2 {
   margin: 0px;
   text-align: right;
   font-size: 10px;
-  color: hsla(190, 100%, 80%, 0.8);
+  /*color: hsla(190, 100%, 80%, 0.8);*/
   display: block;
   cursor: default;
 }
