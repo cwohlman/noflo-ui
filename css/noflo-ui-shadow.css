@@ -375,3 +375,58 @@ html /deep/ .modal-content /deep/ .toolbar a {
 html polymer-element.modal-content {
   display: none;
 }
+
+      html /deep/ .route:nth-child(even) input, 
+      html /deep/ .route:nth-child(even) button {
+        background-color: hsla(210, 100%, 20%, .1);
+      }
+      html /deep/ .route:nth-child(odd) input, 
+      html /deep/ .route:nth-child(odd) button {
+        background-color: hsla(190, 100%, 20%, .1);
+      }
+
+      html /deep/ .route.route0  input, 
+      html /deep/ .route.route0  button  { 
+        background-color: hsla(  0,  0%, 30%, 0.35); 
+      }
+      html /deep/ .route.route1  input, 
+      html /deep/ .route.route1  button  { 
+        background-color: hsla(  0, 98%, 20%, 0.35); 
+      }
+      html /deep/ .route.route2  input, 
+      html /deep/ .route.route2  button  { 
+        background-color: hsla( 35, 98%, 20%, 0.35); 
+      }
+      html /deep/ .route.route3  input, 
+      html /deep/ .route.route3  button  { 
+        background-color: hsla( 60, 98%, 20%, 0.35); 
+      }
+      html /deep/ .route.route4  input, 
+      html /deep/ .route.route4  button  { 
+        background-color: hsla(135, 98%, 20%, 0.35); 
+      }
+      html /deep/ .route.route5  input, 
+      html /deep/ .route.route5  button  { 
+        background-color: hsla(160, 98%, 20%, 0.35); 
+      }
+      html /deep/ .route.route6  input, 
+      html /deep/ .route.route6  button  { 
+        background-color: hsla(185, 98%, 20%, 0.35); 
+      }
+      html /deep/ .route.route7  input, 
+      html /deep/ .route.route7  button  { 
+        background-color: hsla(210, 98%, 20%, 0.35); 
+      }
+      html /deep/ .route.route8  input, 
+      html /deep/ .route.route8  button  { 
+        background-color: hsla(285, 98%, 20%, 0.35); 
+      }
+      html /deep/ .route.route9  input, 
+      html /deep/ .route.route9  button  { 
+        background-color: hsla(310, 98%, 20%, 0.35); 
+      }
+      html /deep/ .route.route10 input, 
+      html /deep/ .route.route10 button  { 
+        background-color: hsla(335, 98%, 20%, 0.35); 
+      }
+
