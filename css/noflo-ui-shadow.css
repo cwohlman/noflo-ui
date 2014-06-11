@@ -386,47 +386,123 @@ html polymer-element.modal-content {
       }
 
       html /deep/ .route.route0  input, 
-      html /deep/ .route.route0  button  { 
+      html /deep/ .route.route0  button,
+      html /deep/ .route.route0 span  { 
         background-color: hsla(  0,  0%, 30%, 0.35); 
       }
       html /deep/ .route.route1  input, 
-      html /deep/ .route.route1  button  { 
+      html /deep/ .route.route1  button,
+      html /deep/ .route.route1 span  { 
         background-color: hsla(  0, 98%, 20%, 0.35); 
       }
       html /deep/ .route.route2  input, 
-      html /deep/ .route.route2  button  { 
+      html /deep/ .route.route2  button,
+      html /deep/ .route.route2 span  { 
         background-color: hsla( 35, 98%, 20%, 0.35); 
       }
       html /deep/ .route.route3  input, 
-      html /deep/ .route.route3  button  { 
+      html /deep/ .route.route3  button,
+      html /deep/ .route.route3 span  { 
         background-color: hsla( 60, 98%, 20%, 0.35); 
       }
       html /deep/ .route.route4  input, 
-      html /deep/ .route.route4  button  { 
+      html /deep/ .route.route4  button,
+      html /deep/ .route.route4 span  { 
         background-color: hsla(135, 98%, 20%, 0.35); 
       }
       html /deep/ .route.route5  input, 
-      html /deep/ .route.route5  button  { 
+      html /deep/ .route.route5  button,
+      html /deep/ .route.route5 span  { 
         background-color: hsla(160, 98%, 20%, 0.35); 
       }
       html /deep/ .route.route6  input, 
-      html /deep/ .route.route6  button  { 
+      html /deep/ .route.route6  button,
+      html /deep/ .route.route6 span  { 
         background-color: hsla(185, 98%, 20%, 0.35); 
       }
       html /deep/ .route.route7  input, 
-      html /deep/ .route.route7  button  { 
+      html /deep/ .route.route7  button,
+      html /deep/ .route.route7 span  { 
         background-color: hsla(210, 98%, 20%, 0.35); 
       }
       html /deep/ .route.route8  input, 
-      html /deep/ .route.route8  button  { 
+      html /deep/ .route.route8  button,
+      html /deep/ .route.route8 span  { 
         background-color: hsla(285, 98%, 20%, 0.35); 
       }
       html /deep/ .route.route9  input, 
-      html /deep/ .route.route9  button  { 
+      html /deep/ .route.route9  button,
+      html /deep/ .route.route9 span  { 
         background-color: hsla(310, 98%, 20%, 0.35); 
       }
       html /deep/ .route.route10 input, 
-      html /deep/ .route.route10 button  { 
+      html /deep/ .route.route10 button,
+      html /deep/ .route.route10span  { 
         background-color: hsla(335, 98%, 20%, 0.35); 
       }
 
+
+      
+      html /deep/ .route         label > span { color: hsl(  0,  0%, 75%);}  
+      html /deep/ .route.route0  label > span { color: hsl(  0,  0%,100%);}  
+      html /deep/ .route.route1  label > span { color: hsl(  0, 98%, 46%);}
+      html /deep/ .route.route2  label > span { color: hsl( 35, 98%, 46%);}
+      html /deep/ .route.route3  label > span { color: hsl( 60, 98%, 46%);}
+      html /deep/ .route.route4  label > span { color: hsl(135, 98%, 46%);}
+      html /deep/ .route.route5  label > span { color: hsl(160, 98%, 46%);}
+      html /deep/ .route.route6  label > span { color: hsl(185, 98%, 46%);}
+      html /deep/ .route.route7  label > span { color: hsl(210, 98%, 46%);}
+      html /deep/ .route.route8  label > span { color: hsl(285, 98%, 46%);}
+      html /deep/ .route.route9  label > span { color: hsl(310, 98%, 46%);}
+      html /deep/ .route.route10 label > span { color: hsl(335, 98%, 46%);}
+
+
+
+      html /deep/ .route        input, 
+      html /deep/ .route        button {
+        border-left: 1px solid hsla(  0,  0%, 75%, 0.5); 
+      }
+      html /deep/ .route.route0 input, 
+      html /deep/ .route.route0 button {
+        border-left: 1px solid hsla(  0,  0%,100%, 0.5); 
+      }
+      html /deep/ .route.route1 input, 
+      html /deep/ .route.route1 button {
+        border-left: 1px solid hsla(  0, 98%, 46%, 0.5);
+      }
+      html /deep/ .route.route2 input, 
+      html /deep/ .route.route2 button {
+        border-left: 1px solid hsla( 35, 98%, 46%, 0.5);
+      }
+      html /deep/ .route.route3 input, 
+      html /deep/ .route.route3 button {
+        border-left: 1px solid hsla( 60, 98%, 46%, 0.5);
+      }
+      html /deep/ .route.route4 input, 
+      html /deep/ .route.route4 button {
+        border-left: 1px solid hsla(135, 98%, 46%, 0.5);
+      }
+      html /deep/ .route.route5 input, 
+      html /deep/ .route.route5 button {
+        border-left: 1px solid hsla(160, 98%, 46%, 0.5);
+      }
+      html /deep/ .route.route6 input, 
+      html /deep/ .route.route6 button {
+        border-left: 1px solid hsla(185, 98%, 46%, 0.5);
+      }
+      html /deep/ .route.route7 input, 
+      html /deep/ .route.route7 button {
+        border-left: 1px solid hsla(210, 98%, 46%, 0.5);
+      }
+      html /deep/ .route.route8 input, 
+      html /deep/ .route.route8 button {
+        border-left: 1px solid hsla(285, 98%, 46%, 0.5);
+      }
+      html /deep/ .route.route9 input, 
+      html /deep/ .route.route9 button {
+        border-left: 1px solid hsla(310, 98%, 46%, 0.5);
+      }
+      html /deep/ .route.route10 input, 
+      html /deep/ .route.route10 button {
+        border-left: 1px solid hsla(335, 98%, 46%, 0.5);
+      }
