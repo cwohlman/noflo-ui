@@ -437,7 +437,7 @@ html polymer-element.modal-content {
       }
       html /deep/ .route.route10 input, 
       html /deep/ .route.route10 button,
-      html /deep/ .route.route10span  { 
+      html /deep/ .route.route10 span  { 
         background-color: hsla(335, 98%, 20%, 0.35); 
       }
 
