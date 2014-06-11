@@ -1,7 +1,7 @@
 /* Noflo themed css */
 
 .light /deep/ .bg-theme {
-	background-color: white;
+	background-color: hsl(0, 0%, 94%);
 	color: black;
 }
 
@@ -26,10 +26,12 @@
 	text-shadow: hsl(0, 0%, 0%) 0px 1px;
 }
 
-.light /deep/ .bg-theme /deep/ h2 {
+.light /deep/ .bg-theme /deep/ h2,
+.light /deep/ .blue-theme {
 	color: hsl(185, 98%, 46%);
 	font-weight: bold;
 }
-.dark /deep/ .bg-theme /deep/ h2 {
+.dark /deep/ .bg-theme /deep/ h2,
+.dark /deep/ .blue-theme {
 	color: hsla(190, 100%, 80%, 0.8);
 }

@@ -1,6 +1,6 @@
 <link rel="import" href="noflo-preview.html">
 <link rel="import" href="noflo-runtime-selector.html">
-<polymer-element name="noflo-runtime" attributes="graphs edges runtimes" class="gpu">
+<polymer-element name="noflo-runtime" attributes="graphs edges runtimes" class="gpu bg-theme">
   <template>
     <style>
       :host {
@@ -9,13 +9,13 @@
         padding-left: 18px;
         box-sizing: border-box;
         top: 0;
-        color: hsl(189, 50%, 80%);
+        /*color: hsl(189, 50%, 80%);*/
         width: 288px;
         height: 72px;
-        background-color: hsla(0, 0%, 0%, 0.98) !important;
-        background-image: radial-gradient(1px at 0px 0px, hsl(210, 50%, 60%) 0.5px, hsla(0, 0%, 0%, 0) 1px);
-        background-size: calc(100% - 1px);
-        background-position: 0px;
+        /*background-color: hsla(0, 0%, 0%, 0.98) !important;*/
+        /*background-image: radial-gradient(1px at 0px 0px, hsl(210, 50%, 60%) 0.5px, hsla(0, 0%, 0%, 0) 1px);*/
+        /*background-size: calc(100% - 1px);*/
+        /*background-position: 0px;*/
         border-bottom: 1px hsla(190, 90%, 80%, 0.3) solid;
       }
 
@@ -37,7 +37,7 @@
         font-size: 10px;
         background-color: transparent;
         border: none;
-        color: white;
+        /*color: white;*/
         text-align: center;
       }
 
@@ -46,7 +46,7 @@
         left: 54px;
         width: 180px;
         top: 0px;
-        color: hsl(189, 50%, 80%);
+        /*color: hsl(189, 50%, 80%);*/
       }
 
       #address, #address button {
@@ -76,8 +76,8 @@
       #select button.select {
         width: auto;
         height: auto;
-        background-color: hsl(190, 90%, 45%);
-        color: hsla(0, 0%, 0%, 0.98);
+        /*background-color: hsl(190, 90%, 45%);*/
+        /*color: hsla(0, 0%, 0%, 0.98);*/
         border: none;
         font-size: 13px;
         border-radius: 3px;
@@ -95,16 +95,16 @@
             <button on-click="{{ reconnect }}"><i class="fa fa-refresh"></i></button>
             <h2>{{ runtime.definition.address }}</h2>
             <template if="{{ runtime.definition.protocol != 'iframe' }}">
-            <button on-click="{{ clearRuntime }}" class="clear"><i class="fa fa-exchange"></i></button>
+            <button on-click="{{ clearRuntime }}" class="clear"><i class="fa fa-exchange blue-theme"></i></button>
             </template>
           </div>
         <div id="runcontrol">
           <template if="{{ online }}">
             <template if="{{ execution.running }}">
-              <button class="stop" on-click="{{ stop }}"><i class="fa fa-pause"></i></button>
+              <button class="stop" on-click="{{ stop }}"><i class="fa fa-pause blue-theme"></i></button>
             </template>
             <template if="{{ execution.running == false }}">
-              <button class="start" on-click="{{ start }}"><i class="fa fa-play"></i></button>
+              <button class="start" on-click="{{ start }}"><i class="fa fa-play blue-theme"></i></button>
             </template>
             <h2>{{ execution.label }}</h2>
           </template>
@@ -112,7 +112,7 @@
       </template>
       <template if="{{ !runtime }}">
         <div id="select">
-          <button on-click="{{ selectRuntime }}" class="select">Select runtime</button>
+          <button on-click="{{ selectRuntime }}" class="select blue-theme">Select runtime</button>
         </div>
       </template>
     </template>
