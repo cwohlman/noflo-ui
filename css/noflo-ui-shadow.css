@@ -445,51 +445,39 @@ html polymer-element.modal-content {
 
 
 
-      html /deep/ .route        input, 
-      html /deep/ .route        button {
+      html /deep/ .route        .border-left {
         border-left: 1px solid hsla(  0,  0%, 75%, 0.5); 
       }
-      html /deep/ .route.route0 input, 
-      html /deep/ .route.route0 button {
+      html /deep/ .route.route0 .border-left {
         border-left: 1px solid hsla(  0,  0%,100%, 0.5); 
       }
-      html /deep/ .route.route1 input, 
-      html /deep/ .route.route1 button {
+      html /deep/ .route.route1 .border-left {
         border-left: 1px solid hsla(  0, 98%, 46%, 0.5);
       }
-      html /deep/ .route.route2 input, 
-      html /deep/ .route.route2 button {
+      html /deep/ .route.route2 .border-left {
         border-left: 1px solid hsla( 35, 98%, 46%, 0.5);
       }
-      html /deep/ .route.route3 input, 
-      html /deep/ .route.route3 button {
+      html /deep/ .route.route3 .border-left {
         border-left: 1px solid hsla( 60, 98%, 46%, 0.5);
       }
-      html /deep/ .route.route4 input, 
-      html /deep/ .route.route4 button {
+      html /deep/ .route.route4 .border-left {
         border-left: 1px solid hsla(135, 98%, 46%, 0.5);
       }
-      html /deep/ .route.route5 input, 
-      html /deep/ .route.route5 button {
+      html /deep/ .route.route5 .border-left {
         border-left: 1px solid hsla(160, 98%, 46%, 0.5);
       }
-      html /deep/ .route.route6 input, 
-      html /deep/ .route.route6 button {
+      html /deep/ .route.route6 .border-left {
         border-left: 1px solid hsla(185, 98%, 46%, 0.5);
       }
-      html /deep/ .route.route7 input, 
-      html /deep/ .route.route7 button {
+      html /deep/ .route.route7 .border-left {
         border-left: 1px solid hsla(210, 98%, 46%, 0.5);
       }
-      html /deep/ .route.route8 input, 
-      html /deep/ .route.route8 button {
+      html /deep/ .route.route8 .border-left {
         border-left: 1px solid hsla(285, 98%, 46%, 0.5);
       }
-      html /deep/ .route.route9 input, 
-      html /deep/ .route.route9 button {
+      html /deep/ .route.route9 .border-left {
         border-left: 1px solid hsla(310, 98%, 46%, 0.5);
       }
-      html /deep/ .route.route10 input, 
-      html /deep/ .route.route10 button {
+      html /deep/ .route.route10 .border-left {
         border-left: 1px solid hsla(335, 98%, 46%, 0.5);
       }

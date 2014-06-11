@@ -190,13 +190,13 @@
           <label><span title="{{ port.name }}">{{ port.label }}</span>
 
             <template if="{{ port.type == 'bang' }}">
-              <button name="{{ port.name }}" on-click="{{ sendBang }}"><i class="fa fa-bolt"></i></button>
+              <button class="border-left" name="{{ port.name }}" on-click="{{ sendBang }}"><i class="fa fa-bolt"></i></button>
             </template>
             <template if="{{ port.type == 'boolean' }}">
-              <input type="checkbox" name="{{ port.name }}" checked="{{ port.value }}" data-type="{{ port.type }}" on-change="{{ updateValue }}">
+              <input type="checkbox" class="border-left" name="{{ port.name }}" checked="{{ port.value }}" data-type="{{ port.type }}" on-change="{{ updateValue }}">
             </template>
             <template if="{{ port.values }}">
-              <select name="{{ port.name }}" data-type="{{ port.type }}" on-change="{{ updateValue }}" value="{{ port.value }}">
+              <select class="border-left" name="{{ port.name }}" data-type="{{ port.type }}" on-change="{{ updateValue }}" value="{{ port.value }}">
                 <option></option>
                 <template repeat="{{ value in port.values }}">
                   <option value="[[value]]" selected?="{{ port.value == value }}" >[[value]]</option>
@@ -205,14 +205,14 @@
             </template>
             <template if="{{ port.type == 'int' && !port.values }}">
               <number-scrubber name="{{ port.name }}" value="{{port.value}}" step="1" data-type="int" on-scrubstart="{{ scrubStart }}" on-scrub="{{updateValue}}" on-scrubend="{{ scrubEnd }}">#</number-scrubber>
-              <input type="text" data-type="int" name="{{ port.name }}" value="{{ port.value }}" on-change="{{ updateValue }}" on-keydown="{{ checkEnter }}" />
+              <input type="text" data-type="int" class="border-left" name="{{ port.name }}" value="{{ port.value }}" on-change="{{ updateValue }}" on-keydown="{{ checkEnter }}" />
             </template>
             <template if="{{ port.type == 'number' && !port.values }}">
               <number-scrubber name="{{ port.name }}" value="{{ port.value }}" step="0.01" data-type="number" on-scrubstart="{{ scrubStart }}" on-scrub="{{updateValue}}" on-scrubend="{{ scrubEnd }}">#</number-scrubber>
-              <input type="text" data-type="number" name="{{ port.name }}" value="{{ port.value }}" on-change="{{ updateValue }}" on-keydown="{{ checkEnter }}" />
+              <input type="text" data-type="number" class="border-left" name="{{ port.name }}" value="{{ port.value }}" on-change="{{ updateValue }}" on-keydown="{{ checkEnter }}" />
             </template>
             <template if="{{ port.type != 'bang' && port.type != 'boolean' && port.type != 'int' && port.type != 'number' && !port.values }}">
-              <input type="{{ port.inputType }}" name="{{ port.name }}" value="{{ port.value }}" autocapitalize="off" autocorrect="off" data-type="{{ port.type }}" on-keydown="{{ checkEnter }}" on-change="{{ updateValue }}" />
+              <input type="{{ port.inputType }}" class="border-left" name="{{ port.name }}" value="{{ port.value }}" autocapitalize="off" autocorrect="off" data-type="{{ port.type }}" on-keydown="{{ checkEnter }}" on-change="{{ updateValue }}" />
             </template>
             <template if="{{ port.type != 'bang' && port.value != undefined }}">
               <button class="remove-value" data-port="{{ port.name }}" on-click="{{ removeValue }}"><i class="fa fa-ban"></i></button>
