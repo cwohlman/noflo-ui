@@ -238,6 +238,10 @@ html /deep/ the-card ::shadow ul li {
   display: block;
   padding: 0px;
   margin: 0px;
+  margin-left: -8px;
+  padding-left: 8px;
+  margin-right: -8px;
+  padding-right: 8px;
 }
 html /deep/ the-card ::shadow ul.toolbar2right {
   width: 180px;
@@ -376,108 +380,43 @@ html polymer-element.modal-content {
   display: none;
 }
 
-      html /deep/ .route:nth-child(even) {
-        background-color: hsla(210, 100%, 20%, .1);
-      }
-      html /deep/ .route:nth-child(odd) {
-        background-color: hsla(190, 100%, 20%, .1);
-      }
+html /deep/ .route:nth-child(even) { background-color: hsla(210, 100%, 20%, .1); }
+html /deep/ .route:nth-child(odd)  { background-color: hsla(190, 100%, 20%, .1); }
 
-      html /deep/ .route.route0 { 
-        background-color: hsla(  0,  0%, 30%, 0.35);
-        color: hsl(  0,  0%,100%);
-      }
-      html /deep/ .route.route1 {
-        background-color: hsla(  0, 98%, 20%, 0.35);
-        color: hsl(  0, 98%, 46%);
-      }
-      html /deep/ .route.route2 {
-        background-color: hsla( 35, 98%, 20%, 0.35);
-        color: hsl( 35, 98%, 46%);
-      }
-      html /deep/ .route.route3 {
-        background-color: hsla( 60, 98%, 20%, 0.35);
-        color: hsl( 60, 98%, 46%);
-      }
-      html /deep/ .route.route4 {
-        background-color: hsla(135, 98%, 20%, 0.35);
-        color: hsl(135, 98%, 46%);
-      }
-      html /deep/ .route.route5 {
-        background-color: hsla(160, 98%, 20%, 0.35);
-        color: hsl(160, 98%, 46%);
-      }
-      html /deep/ .route.route6 {
-        background-color: hsla(185, 98%, 20%, 0.35);
-        color: hsl(185, 98%, 46%);
-      }
-      html /deep/ .route.route7 {
-        background-color: hsla(210, 98%, 20%, 0.35);
-        color: hsl(210, 98%, 46%);
-      }
-      html /deep/ .route.route8 {
-        background-color: hsla(285, 98%, 20%, 0.35);
-        color: hsl(285, 98%, 46%);
-      }
-      html /deep/ .route.route9 {
-        background-color: hsla(310, 98%, 20%, 0.35);
-        color: hsl(310, 98%, 46%);
-      }
-      html /deep/ .route.route10 {
-        background-color: hsla(335, 98%, 20%, 0.35);
-        color: hsl(335, 98%, 46%);
-      }
+html /deep/ .route.route0  { background-color: hsla(  0,  0%, 30%, 0.35); }
+html /deep/ .route.route1  { background-color: hsla(  0, 98%, 20%, 0.35); }
+html /deep/ .route.route2  { background-color: hsla( 35, 98%, 20%, 0.35); }
+html /deep/ .route.route3  { background-color: hsla( 60, 98%, 20%, 0.35); }
+html /deep/ .route.route4  { background-color: hsla(135, 98%, 20%, 0.35); }
+html /deep/ .route.route5  { background-color: hsla(160, 98%, 20%, 0.35); }
+html /deep/ .route.route6  { background-color: hsla(185, 98%, 20%, 0.35); }
+html /deep/ .route.route7  { background-color: hsla(210, 98%, 20%, 0.35); }
+html /deep/ .route.route8  { background-color: hsla(285, 98%, 20%, 0.35); }
+html /deep/ .route.route9  { background-color: hsla(310, 98%, 20%, 0.35); }
+html /deep/ .route.route10 { background-color: hsla(335, 98%, 20%, 0.35); }
 
+html /deep/ .route   { color: hsl(  0,  0%, 75%); }  
+html /deep/ .route0  { color: hsl(  0,  0%,100%); }  
+html /deep/ .route1  { color: hsl(  0, 98%, 46%); }
+html /deep/ .route2  { color: hsl( 35, 98%, 46%); }
+html /deep/ .route3  { color: hsl( 60, 98%, 46%); }
+html /deep/ .route4  { color: hsl(135, 98%, 46%); }
+html /deep/ .route5  { color: hsl(160, 98%, 46%); }
+html /deep/ .route6  { color: hsl(185, 98%, 46%); }
+html /deep/ .route7  { color: hsl(210, 98%, 46%); }
+html /deep/ .route8  { color: hsl(285, 98%, 46%); }
+html /deep/ .route9  { color: hsl(310, 98%, 46%); }
+html /deep/ .route10 { color: hsl(335, 98%, 46%); }
 
-      
-      html /deep/ .route-color { color: hsl(  0,  0%, 75%);}  
-      html /deep/ .route.route0-color { color: hsl(  0,  0%,100%);}  
-      html /deep/ .route.route1-color { color: hsl(  0, 98%, 46%);}
-      html /deep/ .route.route2-color { color: hsl( 35, 98%, 46%);}
-      html /deep/ .route.route3-color { color: hsl( 60, 98%, 46%);}
-      html /deep/ .route.route4-color { color: hsl(135, 98%, 46%);}
-      html /deep/ .route.route5-color { color: hsl(160, 98%, 46%);}
-      html /deep/ .route.route6-color { color: hsl(185, 98%, 46%);}
-      html /deep/ .route.route7-color { color: hsl(210, 98%, 46%);}
-      html /deep/ .route.route8-color { color: hsl(285, 98%, 46%);}
-      html /deep/ .route.route9-color { color: hsl(310, 98%, 46%);}
-      html /deep/ .route.route10-color { color: hsl(335, 98%, 46%);}
-
-
-
-      html /deep/ .route        .border-left {
-        border-left: 1px solid hsla(  0,  0%, 75%, 0.5); 
-      }
-      html /deep/ .route.route0 .border-left {
-        border-left: 1px solid hsla(  0,  0%,100%, 0.5); 
-      }
-      html /deep/ .route.route1 .border-left {
-        border-left: 1px solid hsla(  0, 98%, 46%, 0.5);
-      }
-      html /deep/ .route.route2 .border-left {
-        border-left: 1px solid hsla( 35, 98%, 46%, 0.5);
-      }
-      html /deep/ .route.route3 .border-left {
-        border-left: 1px solid hsla( 60, 98%, 46%, 0.5);
-      }
-      html /deep/ .route.route4 .border-left {
-        border-left: 1px solid hsla(135, 98%, 46%, 0.5);
-      }
-      html /deep/ .route.route5 .border-left {
-        border-left: 1px solid hsla(160, 98%, 46%, 0.5);
-      }
-      html /deep/ .route.route6 .border-left {
-        border-left: 1px solid hsla(185, 98%, 46%, 0.5);
-      }
-      html /deep/ .route.route7 .border-left {
-        border-left: 1px solid hsla(210, 98%, 46%, 0.5);
-      }
-      html /deep/ .route.route8 .border-left {
-        border-left: 1px solid hsla(285, 98%, 46%, 0.5);
-      }
-      html /deep/ .route.route9 .border-left {
-        border-left: 1px solid hsla(310, 98%, 46%, 0.5);
-      }
-      html /deep/ .route.route10 .border-left {
-        border-left: 1px solid hsla(335, 98%, 46%, 0.5);
-      }
+html /deep/ .route         .border-left { border-left: 1px solid hsla(  0,  0%, 75%, 0.5); }
+html /deep/ .route.route0  .border-left { border-left: 1px solid hsla(  0,  0%,100%, 0.5); }
+html /deep/ .route.route1  .border-left { border-left: 1px solid hsla(  0, 98%, 46%, 0.5); }
+html /deep/ .route.route2  .border-left { border-left: 1px solid hsla( 35, 98%, 46%, 0.5); }
+html /deep/ .route.route3  .border-left { border-left: 1px solid hsla( 60, 98%, 46%, 0.5); }
+html /deep/ .route.route4  .border-left { border-left: 1px solid hsla(135, 98%, 46%, 0.5); }
+html /deep/ .route.route5  .border-left { border-left: 1px solid hsla(160, 98%, 46%, 0.5); }
+html /deep/ .route.route6  .border-left { border-left: 1px solid hsla(185, 98%, 46%, 0.5); }
+html /deep/ .route.route7  .border-left { border-left: 1px solid hsla(210, 98%, 46%, 0.5); }
+html /deep/ .route.route8  .border-left { border-left: 1px solid hsla(285, 98%, 46%, 0.5); }
+html /deep/ .route.route9  .border-left { border-left: 1px solid hsla(310, 98%, 46%, 0.5); }
+html /deep/ .route.route10 .border-left { border-left: 1px solid hsla(335, 98%, 46%, 0.5); }
